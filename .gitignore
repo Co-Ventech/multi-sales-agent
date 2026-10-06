@@ -39,7 +39,7 @@ backend/data/resumes/*
 backend/data/runs/*
 
 # Test results & data — never commit
-.dataset_linkedin-job-search_2026-05-11_09-13-33-242.json
+dataset_linkedin-job-search_2026-05-11_09-13-33-242.json
 .playwright-mcp/
 *.test.*
 *.spec.*
