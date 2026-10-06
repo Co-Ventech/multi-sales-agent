@@ -1,0 +1,10 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "upwork": {
+      "type": "remote",
+      "url": "https://mcp.upwork.com/mcp",
+      "enabled": true
+    }
+  }
+}

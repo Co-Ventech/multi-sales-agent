@@ -1,0 +1,45 @@
+{
+  "fetch_count": 500,
+  "file_name": "recruitinn-leads-2026-04",
+
+  "contact_location": ["united states", "canada", "united arab emirates", "united kingdom", "australia"],
+
+  "contact_job_title": [
+    "founder", "co-founder", "ceo", "cto",
+    "vp of engineering", "vp engineering", "head of engineering",
+    "director of engineering", "engineering manager",
+    "vp of talent", "head of talent", "head of hr",
+    "hr manager", "talent acquisition manager", "chief people officer"
+  ],
+  "contact_not_job_title": ["intern", "student", "contractor", "freelance"],
+
+  "seniority_level": ["founder", "owner", "c_suite", "vp", "director", "head", "manager"],
+  "functional_level": ["engineering", "information_technology"],
+
+  "email_status": ["validated", "not_validated", "unknown"],
+
+  "company_industry": [
+    "computer software",
+    "internet",
+    "information technology & services",
+    "financial services",
+    "computer & network security",
+    "computer hardware",
+    "computer networking",
+    "computer games",
+    "e-learning",
+    "biotechnology",
+    "medical devices",
+    "semiconductors",
+    "information services"
+  ],
+  "company_keywords": ["software", "saas", "engineering", "product", "startup", "tech"],
+  "company_not_keywords": ["staffing & recruiting", "recruitment agency", "outsourcing", "consulting"],
+
+  "size": ["11-20", "21-50", "51-100", "101-200"],
+
+  "funding": ["seed", "angel", "series_a", "series_b", "venture_round", "convertible_note"],
+
+  "min_revenue": "500K",
+  "max_revenue": "25M"
+}

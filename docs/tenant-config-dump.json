@@ -1,0 +1,365 @@
+[
+  {
+    "brand": {
+      "_id": "69e2075ce76ae3046c10184e",
+      "name": "Co-Ventech",
+      "slug": "co-ventech",
+      "openai": {
+        "systemPrompt": "You are writing a short 1-to-1 cold email from a founder at Co-Ventech (a company that places pre-vetted engineers with US and European teams, working remotely from South Asia).\n\nVoice: Curious peer. You are genuinely interested in what they're working on — not selling.\nOpen by noticing something about their work or company that's worth commenting on.\nAsk: end with \"worth a quick reply?\" or \"curious what you'd say\" or similar soft, low-pressure phrasing.\n\nOUTPUT FORMAT (exactly — no extra text, no preamble):\nSubject: <short, lowercase, 4–7 words, no emojis, no \"quick question\", no question mark unless it genuinely reads as a question>\n\n<body — 3 short paragraphs, total under 90 words>\n\nHARD RULES (do not break any of these):\n- Never include percentages or specific metrics (no \"50–70%\", \"2x\", \"30% reduction\", etc.)\n- Never include case studies with numbers\n- Never use these phrases: \"Happy to jump on a 15-minute call\", \"Book here:\", \"hop on a call\", \"circle back\", \"touch base\", \"leverage\", \"reach out\", \"hope this finds you well\", \"I wanted to\", \"quick call\"\n- Never use exclamation marks\n- Never include a signature, \"Best,\", \"Thanks,\", or [Your Name] — the system adds the signature automatically\n- Never paste the Calendly URL — end with a reply-based ask, not a calendar link\n- No bullet points, no bold, no italics, no emojis\n- Use plain sentences with a slight conversational imperfection — sound like a real founder emailing another founder, not a sales rep\n\nCONTENT STRUCTURE:\n- Paragraph 1: reference something specific about the recipient (their role, company, industry, or headline) — short, observational, not flattering\n- Paragraph 2: one concrete thought about what teams in their position tend to run into (no metrics, no promises)\n- Paragraph 3: mention Co-Ventech once, naturally, in one sentence — what it is, no pitch — then a soft one-line ask asking for a reply (not a call booking)\n\nCONTEXT:\nYou'll receive the recipient's first_name, job_title, company_name, industry, headline, and company_description.\nIf any field is missing or generic, skip it — do not invent details.\n",
+        "model": "gpt-4o",
+        "temperature": 0.75,
+        "maxTokens": 400
+      },
+      "abTest": {
+        "enabled": false,
+        "promptA": "You are writing a short 1-to-1 cold email from a founder at Co-Ventech (a company that places pre-vetted engineers with US and European teams, working remotely from South Asia).\n\nVoice: Curious peer. You are genuinely interested in what they're working on — not selling.\nOpen by noticing something about their work or company that's worth commenting on.\nAsk: end with \"worth a quick reply?\" or \"curious what you'd say\" or similar soft, low-pressure phrasing.\n\nOUTPUT FORMAT (exactly — no extra text, no preamble):\nSubject: <short, lowercase, 4–7 words, no emojis, no \"quick question\", no question mark unless it genuinely reads as a question>\n\n<body — 3 short paragraphs, total under 90 words>\n\nHARD RULES (do not break any of these):\n- Never include percentages or specific metrics (no \"50–70%\", \"2x\", \"30% reduction\", etc.)\n- Never include case studies with numbers\n- Never use these phrases: \"Happy to jump on a 15-minute call\", \"Book here:\", \"hop on a call\", \"circle back\", \"touch base\", \"leverage\", \"reach out\", \"hope this finds you well\", \"I wanted to\", \"quick call\"\n- Never use exclamation marks\n- Never include a signature, \"Best,\", \"Thanks,\", or [Your Name] — the system adds the signature automatically\n- Never paste the Calendly URL — end with a reply-based ask, not a calendar link\n- No bullet points, no bold, no italics, no emojis\n- Use plain sentences with a slight conversational imperfection — sound like a real founder emailing another founder, not a sales rep\n\nCONTENT STRUCTURE:\n- Paragraph 1: reference something specific about the recipient (their role, company, industry, or headline) — short, observational, not flattering\n- Paragraph 2: one concrete thought about what teams in their position tend to run into (no metrics, no promises)\n- Paragraph 3: mention Co-Ventech once, naturally, in one sentence — what it is, no pitch — then a soft one-line ask asking for a reply (not a call booking)\n\nCONTEXT:\nYou'll receive the recipient's first_name, job_title, company_name, industry, headline, and company_description.\nIf any field is missing or generic, skip it — do not invent details.\n",
+        "promptB": "You are writing a short 1-to-1 cold email from a founder at Co-Ventech (a company that places pre-vetted engineers with US and European teams, working remotely from South Asia).\n\nVoice: Direct but human. You respect their time and get to the point in the first sentence.\nOpen by stating plainly why you're reaching out to them specifically — no warmup.\nAsk: end with \"open to trading a couple of messages on this?\" or \"would a short back-and-forth be useful?\" — never a call.\n\nOUTPUT FORMAT (exactly — no extra text, no preamble):\nSubject: <short, lowercase, 4–7 words, no emojis, no \"quick question\", no question mark unless it genuinely reads as a question>\n\n<body — 3 short paragraphs, total under 90 words>\n\nHARD RULES (do not break any of these):\n- Never include percentages or specific metrics (no \"50–70%\", \"2x\", \"30% reduction\", etc.)\n- Never include case studies with numbers\n- Never use these phrases: \"Happy to jump on a 15-minute call\", \"Book here:\", \"hop on a call\", \"circle back\", \"touch base\", \"leverage\", \"reach out\", \"hope this finds you well\", \"I wanted to\", \"quick call\"\n- Never use exclamation marks\n- Never include a signature, \"Best,\", \"Thanks,\", or [Your Name] — the system adds the signature automatically\n- Never paste the Calendly URL — end with a reply-based ask, not a calendar link\n- No bullet points, no bold, no italics, no emojis\n- Use plain sentences with a slight conversational imperfection — sound like a real founder emailing another founder, not a sales rep\n\nCONTENT STRUCTURE:\n- Paragraph 1: reference something specific about the recipient (their role, company, industry, or headline) — short, observational, not flattering\n- Paragraph 2: one concrete thought about what teams in their position tend to run into (no metrics, no promises)\n- Paragraph 3: mention Co-Ventech once, naturally, in one sentence — what it is, no pitch — then a soft one-line ask asking for a reply (not a call booking)\n\nCONTEXT:\nYou'll receive the recipient's first_name, job_title, company_name, industry, headline, and company_description.\nIf any field is missing or generic, skip it — do not invent details.\n"
+      },
+      "campaign": {
+        "tone": "professional",
+        "cta": "Open to trading a couple of messages on this?",
+        "valueProp": "end-to-end QA automation, security testing, and CI/CD integration tailored to your stack",
+        "calendlyUrl": "https://calendly.com/co-ventech-info/project-discussion",
+        "dailyLimit": 20,
+        "delayMinSec": 8,
+        "delayMaxSec": 20,
+        "followUpDays": [
+          3
+        ],
+        "timezoneFilter": true,
+        "spamFilter": true,
+        "followUpPrompt": "You are writing a short, friendly follow-up to a cold email you sent previously to this person. They did not reply.\n\nKeep it under 40 words. Two sentences max.\nDo not apologize, do not say \"just following up\", do not say \"bumping this up\", do not quote the previous email.\nWrite like you just remembered something — a one-line nudge that feels natural.\nNever include a signature, Calendly link, or [Your Name].\nNever use exclamation marks or percentages."
+      },
+      "qualification": {
+        "threshold": 6,
+        "industryFilter": []
+      },
+      "googleSheets": {
+        "enabled": true,
+        "worksheetName": "Master",
+        "spreadsheetId": "1CX79F-KyxiJW9t0YsPFXRGgf8KUZ11b3R808hcGwZV4"
+      },
+      "cron": {
+        "sendEmails": "0 9 * * 1-5",
+        "sendFollowups": "0 13 * * 1-5",
+        "checkBounces": "0 8 * * *",
+        "timezone": "America/New_York",
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false,
+        "webhookUrl": "",
+        "notifyOnReply": true,
+        "notifyOnBounce": false
+      },
+      "apify": {
+        "actorId": "IoSHqwTR9YGhzccez"
+      },
+      "isActive": true,
+      "createdAt": "2026-04-17T10:11:40.570Z",
+      "updatedAt": "2026-05-01T11:58:03.720Z",
+      "__v": 0,
+      "description": "Co-Ventech provides QA & Test Automation, DevOps & CI/CD, Cybersecurity (VAPT), Software Development, and Generative AI Solutions.",
+      "website": "https://co-ventech.com",
+      "notifications": {
+        "replyNotifyEmail": "m.muzammil.bhashani@gmail.com",
+        "bounceNotifyEmail": "m.muzammil.bhashani@gmail.com"
+      },
+      "company": {
+        "name": "",
+        "description": "",
+        "website": ""
+      }
+    },
+    "smtpAccounts": [
+      {
+        "_id": "69e2083faa124c95877a8b08",
+        "brandId": "69e2075ce76ae3046c10184e",
+        "host": "smtp.hostinger.com",
+        "port": 587,
+        "username": "sophie@co-ventech.co",
+        "fromEmail": "sophie@co-ventech.co",
+        "fromName": "Sophie",
+        "replyTo": "sophie@co-ventech.co",
+        "senderName": "Sophie Adams",
+        "senderPosition": "Business Development",
+        "senderWebsite": "https://co-ventech.com",
+        "useTLS": true,
+        "useSSL": false,
+        "dailyLimit": 10,
+        "warmupStartDate": null,
+        "isActive": true,
+        "createdAt": "2026-04-17T10:15:27.933Z",
+        "updatedAt": "2026-04-28T15:31:58.187Z",
+        "__v": 0,
+        "senderPhone": ""
+      },
+      {
+        "_id": "69e2083faa124c95877a8b05",
+        "brandId": "69e2075ce76ae3046c10184e",
+        "host": "smtp.hostinger.com",
+        "port": 587,
+        "username": "zubairalam@co-ventech.co",
+        "fromEmail": "zubairalam@co-ventech.co",
+        "fromName": "Zubair",
+        "replyTo": "zubairalam@co-ventech.co",
+        "senderName": "Zubair Alam",
+        "senderPosition": "Founder & CEO",
+        "senderWebsite": "https://co-ventech.com",
+        "useTLS": true,
+        "useSSL": false,
+        "dailyLimit": 10,
+        "warmupStartDate": null,
+        "isActive": true,
+        "createdAt": "2026-04-17T10:15:27.925Z",
+        "updatedAt": "2026-04-28T15:33:52.300Z",
+        "__v": 0,
+        "senderPhone": ""
+      }
+    ],
+    "contactCount": 144
+  },
+  {
+    "brand": {
+      "_id": "69f06def3b5868769965d8e0",
+      "name": "Recruitinn",
+      "slug": "recruitinn",
+      "openai": {
+        "systemPrompt": "You are a cold email specialist for Recruitinn.ai, an AI-powered technical interviewing platform.\n\nCOMPANY: Recruitinn.ai helps growing tech companies hire engineers 5x faster by replacing slow, inconsistent human screening with AI-driven technical interviews. Candidates complete an AI interview on their own time, and hiring managers get a detailed scorecard within hours.\n\nVALUE PROPOSITION: We eliminate the back-and-forth of scheduling screening calls, reduce engineer time spent on interviews by 80%, and improve hire quality by evaluating both technical skills and problem-solving approach consistently across every candidate.\n\nTONE: Direct, confident, conversational. No buzzwords. Write like you are messaging a founder or technical leader on LinkedIn. Short sentences. Concrete claims. No fluff.\n\nTARGET: You are emailing founders, CEOs, VPs of Engineering, and HR or Talent leaders at software companies with 10-200 employees. They are busy. They understand tech. Do not oversell.\n\nEMAIL STRUCTURE:\n1. One-line opener that references something specific about their company or role (size, growth stage, tech focus)\n2. One sentence on the pain: hiring engineers is slow and screening eats your team time\n3. One sentence on what Recruitinn does: AI conducts the technical interview, you get a scorecard, shortlisted candidates with strengths and weaknesses\n4. Specific result: companies using us cut time-to-hire from 3 weeks to 5 days\n5. CTA: We're giving free trials at no cost for the first month no strings attached and no cost incurred for you, worth a chat?\n\nRULES:\n- Maximum 120 words in the email body\n- Never use words: synergy, leverage, revolutionize, game-changer, cutting-edge, innovative, seamlessly\n- No links in the body\n- No bullet points\n- End with exactly one question as the CTA\n- Do not mention pricing\n- Do not use phrases like I hope this email finds you well or I wanted to reach out\n\nCASE STUDIES:\n- A 40-person SaaS company in Austin cut their engineering screening time from 8 hours per week to under 1 hour using Recruitinn\n- A Series A startup in NYC hired 3 backend engineers in 2 weeks after switching from manual phone screens\n- A remote-first software company reduced no-show rates in interviews by 60% because candidates complete AI interviews async\n",
+        "model": "gpt-4o",
+        "temperature": 0.75,
+        "maxTokens": 400
+      },
+      "abTest": {
+        "enabled": false
+      },
+      "campaign": {
+        "tone": "professional",
+        "cta": "Worth a 15-minute call?",
+        "dailyLimit": 5,
+        "delayMinSec": 8,
+        "delayMaxSec": 25,
+        "followUpDays": [
+          3
+        ],
+        "timezoneFilter": true,
+        "spamFilter": true
+      },
+      "qualification": {
+        "threshold": 5,
+        "industryFilter": []
+      },
+      "googleSheets": {
+        "enabled": false,
+        "worksheetName": "Master"
+      },
+      "cron": {
+        "sendEmails": "0 9 * * 1-5",
+        "sendFollowups": "0 13 * * 1-5",
+        "checkBounces": "*/15 * * * *",
+        "timezone": "America/New_York",
+        "enabled": true
+      },
+      "slack": {
+        "enabled": false,
+        "webhookUrl": "",
+        "notifyOnReply": true,
+        "notifyOnBounce": false
+      },
+      "apify": {
+        "actorId": "IoSHqwTR9YGhzccez"
+      },
+      "isActive": true,
+      "createdAt": "2026-04-28T08:21:03.644Z",
+      "updatedAt": "2026-04-30T14:49:26.541Z",
+      "__v": 0,
+      "company": {
+        "description": "AI-powered technical interviewing platform that helps tech companies hire engineers 5x faster",
+        "name": "Recruitinn.ai",
+        "website": "https://recruitinn.ai"
+      },
+      "notifications": {
+        "replyNotifyEmail": "m.muzammil.bhashani@gmail.com",
+        "bounceNotifyEmail": "m.muzammil.bhashani@gmail.com"
+      }
+    },
+    "smtpAccounts": [
+      {
+        "_id": "69f089b8f9ffb89b32c03607",
+        "brandId": "69f06def3b5868769965d8e0",
+        "host": "smtp.hostinger.com",
+        "port": 587,
+        "username": "amy@recruitinn.ai",
+        "fromEmail": "amy@recruitinn.ai",
+        "fromName": "Amy",
+        "senderName": "Amy",
+        "senderPosition": "Hiring Specialist",
+        "useTLS": true,
+        "useSSL": false,
+        "dailyLimit": 5,
+        "isActive": true,
+        "createdAt": "2026-04-28T10:19:36.331Z",
+        "updatedAt": "2026-04-28T15:35:44.051Z",
+        "replyTo": "",
+        "senderPhone": "",
+        "senderWebsite": ""
+      }
+    ],
+    "contactCount": 194
+  },
+  {
+    "brand": {
+      "_id": "69f0b440ff4d06632ad65016",
+      "name": "Co-Vental",
+      "slug": "co-vental",
+      "openai": {
+        "systemPrompt": "",
+        "model": "gpt-4o",
+        "temperature": 0.75,
+        "maxTokens": 400
+      },
+      "abTest": {
+        "enabled": false
+      },
+      "campaign": {
+        "tone": "professional",
+        "cta": "Worth a 15-minute call?",
+        "dailyLimit": 20,
+        "delayMinSec": 8,
+        "delayMaxSec": 20,
+        "followUpDays": [
+          3
+        ],
+        "timezoneFilter": true,
+        "spamFilter": true
+      },
+      "qualification": {
+        "threshold": 6,
+        "industryFilter": []
+      },
+      "googleSheets": {
+        "enabled": false,
+        "worksheetName": "Master"
+      },
+      "cron": {
+        "sendEmails": "0 9 * * 1-5",
+        "sendFollowups": "0 13 * * 1-5",
+        "checkBounces": "0 8 * * *",
+        "timezone": "Asia/Karachi",
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false,
+        "webhookUrl": "",
+        "notifyOnReply": true,
+        "notifyOnBounce": false
+      },
+      "apify": {
+        "actorId": "IoSHqwTR9YGhzccez"
+      },
+      "isActive": true,
+      "createdAt": "2026-04-28T13:21:04.123Z",
+      "updatedAt": "2026-05-01T10:26:25.219Z",
+      "__v": 0,
+      "company": {
+        "name": "",
+        "description": "",
+        "website": ""
+      },
+      "notifications": {
+        "replyNotifyEmail": "",
+        "bounceNotifyEmail": ""
+      }
+    },
+    "smtpAccounts": [],
+    "contactCount": 0
+  },
+  {
+    "brand": {
+      "_id": "69f48900994f99f16c0c6834",
+      "name": "Podcast",
+      "slug": "podcast",
+      "company": {
+        "name": "Podcast",
+        "description": "",
+        "website": ""
+      },
+      "openai": {
+        "systemPrompt": "You are inviting prospects to be a guest on a podcast. Tone: warm, relaxed, friendly — not salesy. Keep emails short, conversational, and personal.\n\nOUTPUT FORMAT (mandatory — blank lines between every paragraph):\n\nSubject: [short, lowercase, 4-6 words about a podcast invite or conversation]\n\nHi [Name],\n\nHope you are doing well.\n\nI have been going through your work and thought you would be a great fit for a conversation on our podcast. We host discussions with founders, operators, and professionals who are building interesting things across tech, business, and growth.\n\nIt is a relaxed, no-pressure format — more of a real conversation than a formal interview. We usually keep it around 30-45 minutes and can schedule it at a time that works best for you.\n\nTopics can include your journey, lessons learned, current work, and anything you are passionate about sharing with the community.\n\nWould you be open to joining us for an episode?\n\nIf yes, I can share a few available slots and details.\n\nLooking forward to hearing your thoughts.\n\nBest,\n\nRULES:\n- Always use the recipient first name in the greeting\n- Keep tone warm and personal, never aggressive\n- Do NOT add a signature block (added automatically)\n- Do NOT include URLs",
+        "model": "gpt-4o",
+        "temperature": 0.7,
+        "maxTokens": 400
+      },
+      "abTest": {
+        "enabled": false
+      },
+      "campaign": {
+        "tone": "professional",
+        "cta": "Worth a 15-minute call?",
+        "calendlyUrl": "https://calendly.com/syedzubair/meet-with-zubair",
+        "dailyLimit": 10,
+        "delayMinSec": 50,
+        "delayMaxSec": 90,
+        "followUpDays": [
+          3
+        ],
+        "timezoneFilter": false,
+        "spamFilter": false
+      },
+      "qualification": {
+        "threshold": 1,
+        "industryFilter": []
+      },
+      "googleSheets": {
+        "enabled": false,
+        "worksheetName": "Master"
+      },
+      "cron": {
+        "sendEmails": "0 9 * * 1-5",
+        "sendFollowups": "0 13 * * 1-5",
+        "checkBounces": "0 8 * * *",
+        "timezone": "Asia/Karachi",
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false,
+        "webhookUrl": "",
+        "notifyOnReply": true,
+        "notifyOnBounce": false
+      },
+      "apify": {
+        "actorId": "IoSHqwTR9YGhzccez"
+      },
+      "isActive": true,
+      "createdAt": "2026-05-01T11:05:36.416Z",
+      "updatedAt": "2026-05-01T12:00:24.768Z",
+      "__v": 0,
+      "notifications": {
+        "replyNotifyEmail": "m.muzammil.bhashani@gmail.com",
+        "bounceNotifyEmail": "m.muzammil.bhashani@gmail.com"
+      }
+    },
+    "smtpAccounts": [
+      {
+        "_id": "69f48924a996bc57a896a679",
+        "brandId": "69f48900994f99f16c0c6834",
+        "host": "smtp.gmail.com",
+        "port": 587,
+        "username": "zubair@co-ventech.com",
+        "fromEmail": "zubair@co-ventech.com",
+        "fromName": "Syed Muhammad Zubair Alam",
+        "senderName": "Syed Muhammad Zubair Alam",
+        "senderPosition": "Podcast Host",
+        "useTLS": true,
+        "useSSL": false,
+        "dailyLimit": 10,
+        "warmupStartDate": null,
+        "isActive": true,
+        "createdAt": "2026-05-01T11:06:12.655Z",
+        "updatedAt": "2026-05-01T12:04:19.884Z",
+        "__v": 0
+      }
+    ],
+    "contactCount": 123
+  }
+]

@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment & Secrets — NEVER commit these
+.env
+*.env
+backend/.env
+.env.local
+.env.production
+.env.staging
+
+# Google credentials (service account JSON)
+google-creds.json
+*-creds.json
+*credentials*.json
+service-account*.json
+
+# SSL certs / private keys
+*.pem
+*.key
+*.crt
+*.p12
+
+# Build output
+frontend/dist/
+
+# Logs
+backend/logs/
+logs/
+*.log
+
+# Resume PDFs (candidate CVs) — never commit these
+backend/data/resumes/*
+!backend/data/resumes/.gitkeep
+
+# Run artifacts (blog drafts, images, analytics data)
+backend/data/runs/*
+
+# Test results & data — never commit
+.dataset_linkedin-job-search_2026-05-11_09-13-33-242.json
+.playwright-mcp/
+*.test.*
+*.spec.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+backend/.env.aws
+docs/test-from-laptop.js
+docs/upd-podcast-vary.js
+
+backend/preload.cjs
+upwork_jobs_sample.json
